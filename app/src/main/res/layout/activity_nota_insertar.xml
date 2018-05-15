@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        <TextView android:text="@string/carnet"/>
+        <EditText
+            android:id="@+id/editCarnet"
+            android:inputType="text"
+            android:maxLength="7" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/codmateria" />
+        <EditText
+            android:id="@+id/editCodmateria"
+            android:inputType="text"
+            android:maxLength="6" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/ciclo" />
+        <EditText
+            android:id="@+id/editCiclo"
+            android:inputType="number"
+            android:maxLength="5" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/notafinal" />
+        <EditText
+            android:id="@+id/editNotafinal"
+            android:inputType="text"
+            android:maxLength="4" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/opciones" />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:onClick="insertarNota"
+            android:text="@string/insertar" />
+
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+
+</TableLayout>

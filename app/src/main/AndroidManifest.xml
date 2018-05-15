@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="clase09.fia.ues.sv.basedatoscarnet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BaseDatosCarnetActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlumnoMenuActivity" />
+        <activity android:name=".NotaMenuActivity" />
+        <activity android:name=".MateriaMenuActivity" />
+        <activity
+            android:name=".ConsultasMenuActivity"
+            android:label="@string/title_activity_consultas_menu" >
+        </activity>
+        <activity android:name=".AlumnoInsertarActivity" />
+        <activity android:name=".AlumnoEliminarActivity" />
+        <activity android:name=".AlumnoActualizarActivity" />
+        <activity android:name=".AlumnoConsultarActivity" />
+        <activity android:name=".NotaInsertarActivity" />
+        <activity android:name=".NotaEliminarActivity" />
+        <activity android:name=".NotaActualizarActivity" />
+        <activity android:name=".NotaConsultarActivity" />
+        <activity android:name=".MateriaInsertarActivity" />
+        <activity android:name=".MateriaEliminarActivity" />
+        <activity android:name=".MateriaActualizarActivity" />
+        <activity android:name=".MateriaConsultarActivity"></activity>
+        <activity
+            android:name=".Consulta1Activity"
+            android:label="@string/title_activity_consulta1" >
+        </activity>
+        <activity
+            android:name=".Consulta2Activity"
+            android:label="@string/title_activity_consulta2" >
+        </activity>
+        <activity
+            android:name=".Consulta3Activity"
+            android:label="@string/title_activity_consulta3" >
+        </activity>
+        <activity
+            android:name=".Consulta4Activity"
+            android:label="@string/title_activity_consulta4" >
+        </activity>
+    </application>
+
+</manifest>

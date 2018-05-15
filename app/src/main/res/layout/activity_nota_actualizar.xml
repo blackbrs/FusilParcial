@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView android:text="@string/carnet" />
+
+        <EditText
+            android:id="@+id/editCarnet"
+            android:inputType="text"
+            android:maxLength="7" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="@string/codmatnota" />
+
+        <EditText
+            android:id="@+id/editCodigo"
+            android:inputType="text"
+            android:maxLength="6" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="@string/ciclo" />
+
+        <EditText
+            android:id="@+id/editCiclo"
+            android:inputType="text"
+            android:maxLength="5" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="@string/notafinal" />
+
+        <EditText
+            android:id="@+id/editNota"
+            android:inputType="numberDecimal" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:onClick="actualizarNota"
+            android:text="@string/actualizar" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+
+</TableLayout>
